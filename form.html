@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+<!DOCTYPE html>
+</head>
+<body>
+	<form method="GET">
+		First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lasttname"><br>
+        Phone number: <input type="text" name="Phone number"><br>
+		Email: <input type="email" name="email"><br>
+		<!-- Updated min to minlength (min is used only for range inputs. Visit here for more info: https://www.w3schools.com/tags/att_input_maxlength.asp) -->
+		Password: <input type="password" name="password" minLength="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+    </form>
+    <p><a href="index.html">Go Back</a></p>
+</body>
+</html>
